@@ -13,5 +13,5 @@ def get_num_character(book_text):
     return character_count
 
 def sort_on(character_count):
-    sort_char_count = dict(sorted(character_count.items(), key=lambda item: item[1], reverse=True))
-    return sort_char_count
+    sort_char = dict(sorted(character_count.items(), key=lambda item: item[1], reverse=True))
+    return sort_char
