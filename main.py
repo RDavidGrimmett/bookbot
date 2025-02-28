@@ -13,6 +13,7 @@ def main():
     character_count = get_num_character(book_text)
     sort_char = sort_on(character_count)
     for key, value in sort_char.items():
-        print(f"{key}: {value}")
+        if key.isalpha():
+            print(f"{key}: {value}")
 
 main()
